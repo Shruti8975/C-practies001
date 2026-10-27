@@ -12,3 +12,16 @@ int main()
 
     return 0;
 }
+
+#include <stdio.h>
+int main()
+{
+  int marks = 90;
+  char grade = 'A';
+  float percentage = 75%;
+  
+  printf("%d\n",marks);
+  printf("%d\n",grade);
+  printf("%f\n, percentage);
+  return 0;
+}
