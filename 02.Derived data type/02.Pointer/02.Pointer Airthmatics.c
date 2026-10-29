@@ -19,6 +19,44 @@ int main()
     
     
 }   
+// Increment and Decrement
+// You can move a pointer with ++ and -- (and with += / -=):
+
+#include<stdio.h>
+int main()
+{
+    int data[5] = {10,20,30,40,50};
+    
+    int *p = data;
+    printf("%d\n",*(data));
+    
+    printf("%d\n",*p);
+    p++;
+    
+    printf("%d\n",*p);
+    p += 1;                   // 20
+    
+    // printf("%d\n",*p);
+    // p += 2;                   // 30
+    
+    printf("%d\n",*p);
+    p -= 2;
+    
+    printf("%d\n",*p);
+    p -= 1;
+    
+    printf("%d\n",*p);
+    p -= 3;
+    
+    
+    return 0;
+    
+    
+    
+    
+}
+
+
 
 
 
