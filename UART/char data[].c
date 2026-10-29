@@ -10,3 +10,4 @@ void loop()
         Serial.println(data);
     }
 }
+// it will take input from user and then print the string .

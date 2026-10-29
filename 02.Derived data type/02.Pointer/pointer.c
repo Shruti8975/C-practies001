@@ -28,4 +28,6 @@ int main()
 }
 
 
+// pointer is a variable that stores the memory address of another variable .
+//& means: "Give me the address of this variable."
 
